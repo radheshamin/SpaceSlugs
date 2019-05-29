@@ -32,11 +32,6 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-<<<<<<< HEAD
-	  //Person 2 put your implementation here
-	  // here is my implementation
-	  return null;
-=======
 	  char[] chars = input.toCharArray();
 	  String output = "";
 	  int range = chars.length - 1;
@@ -45,7 +40,6 @@ public class Person2 {
 		range--;
 	  }
 	  return output;
->>>>>>> owen
 	}
 	/**
 	 * Return a string rep of this object
